@@ -1,26 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
   box-sizing: border-box;
+  font-family: 'Orchidea Pro Medium';
 }
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
+    @apply scroll-smooth;
   }
 }
+
+@font-face {
+  font-family: 'Orchidea Pro Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Orchidea Pro Medium'), url('Mint Type - Orchidea Pro Medium.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Orchidea Pro Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Orchidea Pro Medium Italic'), url('Mint Type - Orchidea Pro Medium Italic.woff') format('woff');
+  }
