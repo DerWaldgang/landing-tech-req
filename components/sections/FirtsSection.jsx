@@ -24,7 +24,7 @@ const FirtsSection = () => {
           <h1 className="text-2xl sm:text-4xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </h1>
-          <p className="font-manrope">
+          <p className='font-manrope'>
             Incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. Duis aute irure dolor in reprehenderit in
